@@ -61,6 +61,7 @@ Hệ thống sẽ hỏi bạn một số thông tin (Email, đồng ý điều k
 sudo certbot renew --dry-run
 ```
 
+---
 
 ## 4. Thực hành 2: Tạo Local CA và cấp phát SSL "chuẩn xịn" cho Localhost
 
@@ -143,6 +144,8 @@ const httpsOptions = {
 };
 const app = await NestFactory.create(AppModule, { httpsOptions });
 ```
+
+---
 
 ## 5. Tổng kết
 SSL/TLS là lớp khiên bảo vệ bắt buộc cho mọi ứng dụng web hiện đại.
